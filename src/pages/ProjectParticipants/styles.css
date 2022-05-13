@@ -1,0 +1,136 @@
+.participants--container {
+  margin-top: 10px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.participants {
+  margin-top: 50px;
+}
+
+.title-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: nowrap;
+}
+
+.participants-info strong {
+  font-size: 30px;
+  color: #666666;
+}
+
+.participants-info h4 {
+  margin-left: 10px;
+  font-size: smaller;
+  background-color: indianred;
+  color: white;
+  padding: 2px 5px;
+  height: fit-content;
+  border-radius: 5px;
+}
+
+.participants--container p {
+  margin: 10px auto;
+  color: #666666;
+}
+
+.new-participant {
+  width: 100vh;
+  text-align: center;
+}
+
+.participants-list {
+  width: 100vh;
+
+  border-left: 2px solid rgba(0, 0, 0, 0.09);
+}
+
+.search-participant-item,
+.participant-item,
+.search-participant {
+  display: flex;
+  justify-content: space-between;
+  margin: 5px 10px;
+  padding: 5px;
+  align-items: center;
+  background: #fff;
+  border-radius: 5px;
+  margin-bottom: 10px;
+  padding: 15px;
+  box-shadow: 0 1px 4px 0 rgba(192, 208, 230, 0.8);
+}
+
+.search-participant-nickname,
+.participant-nickname {
+  font-weight: bold;
+}
+
+.search-participant input {
+  width: 60vh;
+}
+
+.search-participant-item select,
+.participant-item select,
+.search-participant select {
+  margin-top: 5px;
+  background: #ffffff;
+  border: 1px solid #dedede;
+  border-radius: 2px;
+  color: #333333;
+  padding: 8px;
+}
+
+.search-participant-img,
+.participant-img {
+  background: #333333;
+  border-radius: 50;
+  padding: 5px;
+  color: #ffffff;
+  margin-right: 5px;
+  border-radius: 50%;
+  -moz-border-radius: 50%;
+  -webkit-border-radius: 50%;
+  width: 30px;
+  height: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.search-participant-info,
+.participant-info {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.search-participant-options,
+.participant-options {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.search-participant-options select,
+.participant-options select {
+  margin-right: 10px;
+}
+
+.participant-buttons {
+  opacity: 0.8;
+}
+
+.participant-buttons:hover {
+  opacity: 1;
+}
+
+.search-participant-item button {
+  height: 42px;
+  width: 42px;
+  border-radius: 18px;
+  background: #3b5bfd;
+  border: 0;
+  cursor: pointer;
+}

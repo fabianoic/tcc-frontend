@@ -1,0 +1,17 @@
+main {
+  flex: 1;
+}
+
+main ul{
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 20px;
+  list-style: none;
+  margin-top: 20px;
+}
+
+@media (max-width: 910px) {
+  main ul {
+    grid-template-columns: 1fr;
+  }
+}

@@ -1,0 +1,73 @@
+li.report-item{
+  background: #fc726d2d;
+  box-shadow: 0 0 14px 0 rgba(0 , 0, 0, 0.2);
+  border-radius: 4px;
+  padding: 20px;
+}
+
+li.report-item header {
+  display: flex;
+  flex-direction: row;
+}
+
+.report-info strong {
+  display: block;
+  font-size: 16px;
+  color: #333;
+}
+
+.report-info span {
+  font-size: 13px;
+  color: #999;
+  margin-top: 2px;
+}
+
+.report-status-Aberto {
+  color: #FFF;
+  font-size: 14px;
+  line-height: 20px;
+  margin: 10px 0; 
+  font-weight: bold;
+}
+
+.report-status-Concluido {
+  color: #346437;
+  font-size: 14px;
+  line-height: 20px;
+  margin: 10px 0; 
+  font-weight: bold;
+}
+
+.report-status-Em-Progresso {
+  color: #0D63A7;
+  font-size: 14px;
+  line-height: 20px;
+  margin: 10px 0; 
+  font-weight: bold;
+}
+
+.report-status-Avaliacao {
+  color: #9F0705;
+  font-size: 14px;
+  line-height: 20px;
+  margin: 10px 0;
+  font-weight: bold;
+}
+
+.report-info a {
+  font-size: 16;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.report-info-options {  
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-columns: 13fr 1fr 1fr;
+}
+
+.report-info-options button {
+  background: transparent;
+  border: 0;
+  cursor: pointer;
+}

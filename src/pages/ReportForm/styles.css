@@ -1,0 +1,65 @@
+.report-form {
+  margin-top: 50px;
+}
+
+.title-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.report-form--block-checkbox {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  flex: unset !important;
+  width: unset !important;
+}
+
+.report-form--block input {
+  width: 50%;
+  margin-top: 5px;
+  background: #ffffff;
+  border: 1px solid #dedede;
+  box-sizing: border-box;
+  border-radius: 2px;
+  color: #333333;
+}
+
+.report-form--select-group {
+  display: flex;
+  justify-content: space-between;
+  width: 50%;
+}
+
+.report-form--select-group select {
+  width: 48%;
+  margin-top: 5px;
+  background: #ffffff;
+  border: 1px solid #dedede;
+  border-radius: 2px;
+  color: #333333;
+  padding: 8px;
+  font-weight: bold;
+}
+
+.report-form--block textarea {
+  width: 50%;
+  margin-top: 5px;
+  background: #ffffff;
+  border: 1px solid #dedede;
+  box-sizing: border-box;
+  border-radius: 2px;
+  color: #333333;
+  height: 200px;
+  resize: vertical;
+  padding: 10px;
+}
+
+.report-form--options {
+  margin: 50px 0;
+}
+
+.report-form--block {
+  margin: 10px 0;
+}

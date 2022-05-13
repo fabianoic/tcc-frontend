@@ -1,0 +1,38 @@
+.login {
+  padding: 20px;
+  display: flex;
+  margin: 50px auto;
+  flex-direction: column;
+  align-items: center;
+}
+
+.login--container {
+  background: #fff;
+  padding: 20px;
+  border-radius: 4px;
+  border: 1px solid #666666;
+  box-shadow: 0 0 14px 0 rgba(0, 0, 0, 0.2);
+}
+
+.login--container form {
+  margin: 20px auto;
+}
+
+.login strong {
+  font-size: 30px;
+  text-align: center;
+  color: #666666;
+}
+
+.login input {
+  margin-bottom: 15px;
+  font-size: 15px;
+  width: 100%;
+}
+
+.login--buttons {
+  margin-top: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}

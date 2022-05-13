@@ -1,0 +1,39 @@
+li.project-item{
+  background: #fc726d2d;
+  box-shadow: 0 0 14px 0 rgba(0 , 0, 0, 0.2);
+  border-radius: 4px;
+  padding: 20px;
+}
+
+li.project-item header {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.project-info strong {
+  display: block;
+  font-size: 16px;
+  color: #333;
+}
+
+.project-info span {
+  font-size: 13px;
+  color: #999;
+  margin-top: 2px;
+}
+
+li.project-item p {
+  border: 0;
+  color: #666;
+  font-size: 14px;
+  line-height: 20px;
+  margin: 10px 0;
+  text-align: justify;
+}
+
+.project-info a{
+  font-size: 16;
+  font-weight: bold;
+  text-decoration: none;
+}

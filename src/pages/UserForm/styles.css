@@ -1,0 +1,19 @@
+.user {
+  margin-top: 50px;
+}
+
+.user--block {
+  display: flex;
+  flex-direction: column;
+  margin: 10px auto;
+}
+
+.user--block input {
+  width: 50%;
+  margin-top: 5px;
+  background: #ffffff;
+  border: 1px solid #dedede;
+  box-sizing: border-box;
+  border-radius: 2px;
+  color: #333333;
+}
